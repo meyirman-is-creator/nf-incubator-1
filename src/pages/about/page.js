@@ -1,11 +1,11 @@
+/* eslint-disable react/no-unescaped-entities */
+import Layout from "../../app/layout";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import Head from "next/head";
 const About = () => {
   return (
     <>
-      <Header title="About us" />
-      <div className="container mx-auto px-4 py-8 max-w-[1040px] mx-[auto] px-[15px]">
+      <div className="container mx-auto px-4 py-8">
         <h1 className="text-4xl font-bold mb-4">About Us</h1>
         <p className="mb-4">
           Welcome to My Blog! We are dedicated to bringing you the latest news
@@ -48,7 +48,6 @@ const About = () => {
           </li>
         </ul>
       </div>
-      <Footer type="about" title="This page is about us"/>
     </>
   );
 };
