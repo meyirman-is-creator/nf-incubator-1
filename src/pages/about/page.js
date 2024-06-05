@@ -5,7 +5,8 @@ import Footer from "../../components/Footer";
 const About = () => {
   return (
     <>
-      <div className="container mx-auto px-4 py-8">
+    <Header title="About us"/>
+      <div className="container mx-auto px-4 py-8 max-w-[1040px] mx-[auto] px-[15px]">
         <h1 className="text-4xl font-bold mb-4">About Us</h1>
         <p className="mb-4">
           Welcome to My Blog! We are dedicated to bringing you the latest news
@@ -48,6 +49,7 @@ const About = () => {
           </li>
         </ul>
       </div>
+      <Footer type="about" title="this is page about us"/>
     </>
   );
 };
