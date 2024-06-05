@@ -66,7 +66,7 @@ const Blog = () => {
           By {blog.author} on {blog.date}
         </small>
       </div>
-      <Footer title={'Blog about is ' + blog.title} type='blog'/>
+      <Footer title={"Blog about is " + blog.title} type="blog"/>
     </>
   );
 };

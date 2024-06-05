@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from "next/link";
 const BlogList = ({ blogs }) => (
   <div className="p-4 max-w-[1040px] px-[15px] mx-[auto]">
     {blogs.map((blog) => (

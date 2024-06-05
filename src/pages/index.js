@@ -50,11 +50,11 @@ const Home = () => (
   <>
     <Head>
       <title>Blogs Creator</title>
-      <meta name="Blogs-creator" content='Blogs' />
+      <meta name="Blogs-creator" content="Blogs" />
     </Head>
     <Header title="Blog List" />
     <BlogList blogs={blogs} />
-    <Footer title='Home page' type='home'/>
+    <Footer title="Home page" type="home"/>
   </>
 );
 

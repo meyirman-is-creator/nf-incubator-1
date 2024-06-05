@@ -48,7 +48,7 @@ const About = () => {
           </li>
         </ul>
       </div>
-      <Footer type='about' title='This page is about us'/>
+      <Footer type="about" title="This page is about us"/>
     </>
   );
 };
